@@ -27,11 +27,12 @@ if st.button("Run Prediction"):
 
     try:
         # -------- Load models --------
-        scaler = joblib.load("scaler.pkl")
-        model_open  = joblib.load("model_open.pkl")
-        model_high  = joblib.load("model_high.pkl")
-        model_low   = joblib.load("model_low.pkl")
-        model_close = joblib.load("model_close.pkl")
+       scaler = joblib.load("models/scaler.pkl")
+model_open  = joblib.load("models/model_open.pkl")
+model_high  = joblib.load("models/model_high.pkl")
+model_low   = joblib.load("models/model_low.pkl")
+model_close = joblib.load("models/model_close.pkl")
+
 
         # -------- Download data --------
         df = yf.download(symbol, start="2015-01-01")
@@ -82,3 +83,4 @@ if st.button("Run Prediction"):
     except Exception as e:
         st.error("Something went wrong")
         st.exception(e)
+
