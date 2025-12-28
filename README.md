@@ -99,10 +99,8 @@ X^{(\text{scaled})} = \frac{X - \mu}{\sigma}
 
 The prediction for each OHLC component is given by:
 
-\[
-\hat{P}_{t+1} =
-w_1 r_t + w_2 MA_5(t) + w_3 MA_{10}(t) + w_4 MA_{20}(t) + b
-\]
+P̂(t+1) = w₁ · rₜ + w₂ · MA₅(t) + w₃ · MA₁₀(t) + w₄ · MA₂₀(t) + b
+
 
 ## 📉 Loss Function & Training
 
