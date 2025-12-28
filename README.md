@@ -90,18 +90,19 @@ X^{(\text{scaled})} = \frac{X - \mu}{\sigma}
 
 | Target | Model File |
 |------|-----------|
-| Open | `model_open.pkl` |
-| High | `model_high.pkl` |
-| Low  | `model_low.pkl`  |
-| Close| `model_close.pkl` |
+| Open  | `model_open.pkl` |
+| High  | `model_high.pkl` |
+| Low   | `model_low.pkl`  |
+| Close | `model_close.pkl` |
 
 ### Regression Equation
+
+The prediction for each OHLC component is given by:
+
 \[
 \hat{P}_{t+1} =
 w_1 r_t + w_2 MA_5(t) + w_3 MA_{10}(t) + w_4 MA_{20}(t) + b
 \]
-
----
 
 ## 📉 Loss Function & Training
 
