@@ -130,24 +130,19 @@ The goal is realistic forecasting rather than trading optimization.
 
 An interactive **Streamlit web application** is provided for inference.
 
-### Features:
+Features:
 - User inputs a stock or index symbol
 - Recent market data is fetched
 - Next trading day’s OHLC is predicted
 - Results are displayed in a dashboard
 
-Main file:
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
+Main file: `app.py`
 
 ---
 
 ## 🚀 How to Run the Project
 
-### 1️⃣ Install Dependencies
 ```bash
 pip install -r requirements.txt
- streamlit run app.py
+streamlit run app.py
 
