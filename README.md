@@ -145,9 +145,10 @@ Main file: `app.py`
 pip install -r requirements.txt
 streamlit run app.py
 
-## 🚀 Live Demo (Streamlit App)
+## **🚀 Live Demo (Streamlit App)**
 
 👉 https://stock-market-prediction-gourmhwstemxkya82rhaqz.streamlit.app/
+
 
 
 
